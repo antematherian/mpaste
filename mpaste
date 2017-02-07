@@ -14,7 +14,7 @@ Arguments:
 
 Options:
     -u, --url url   Alternate url of the pasteme
-                    Default is http://paste.devys.org/
+                    Default is https://paste.mheaven.ch
 """
 
 import sys
@@ -69,7 +69,7 @@ def main():
         return
 
 
-    url = args["--url"] or "http://paste.devys.org/"
+    url = args["--url"] or "https://paste.mheaven.ch"
 
     if args["FILE"]:
         try:
